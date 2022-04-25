@@ -2,16 +2,16 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr">
+        <div class="col-sm-3">
         {%- if entry.abbr -%}
 
-        <img class="img-thumbnail" src="{{ entry.abbr | prepend: '/assets/pubimg/' | relative_url }}">
-
+        <img class="img-fluid" src="{{ entry.abbr | prepend: '/assets/pubimg/' | relative_url }}">
+        <div id="content">{{ content | newline_to_br }}</div>
         {%- endif -%}
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div id="{{entry.key}}" class="col-sm-7">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
