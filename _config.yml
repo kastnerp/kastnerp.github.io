@@ -25,7 +25,7 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -59,14 +59,14 @@ scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
 orcid_id: 0000-0003-4940-341X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: ABA-6632-2021 # your ID on Publons
+publons_id: # ABA-6632-2021 # your ID on Publons
 research_gate_profile: Patrick-Kastner # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: https://es.aap.cornell.edu/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
-stackoverflow_id: 4876516 #your stackoverflow id
+stackoverflow_id: # 4876516 #your stackoverflow id
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -95,9 +95,9 @@ disqus_shortname: #al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+# external_sources:
+#  - name: medium.com
+#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -143,7 +143,7 @@ exclude:
   - Gemfile.lock
   - vendor
 keep_files:
-  - CNAME
+  -  CNAME
   - .nojekyll
   - .git
 # Plug-ins
