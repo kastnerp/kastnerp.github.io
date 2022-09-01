@@ -3,8 +3,8 @@ services:
   site:
     environment:
       - JEKYLL_ENV=docker
-    command: jekyll serve --watch --force_polling --config  _config.yml,_config.docker.yml
-    image: dgraziotin/jekyll-imagemagick6:stable
+    command: bundler exec jekyll serve --watch --config _config.docker.yml
+    image: al-folio:latest
     volumes:
       - .:/srv/jekyll
     ports:
