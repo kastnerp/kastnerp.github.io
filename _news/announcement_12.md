@@ -5,7 +5,12 @@ date: 2022-09-01 16:11:00-0400
 inline: false
 ---
 
-<img title="" src="/assets/img/Poster_PhD_ds.jpg" alt="Poster_PhD_ds.jpg" width="300">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Poster_PhD_ds.jpg" title="Poster_PhD_ds.jpg" class="img-fluid z-depth-1" %}
+    </div>
+</div>
+
 
 My Ph.D. is nearing its end and I'll have the opportunity to present my research to the wider community. 
 
