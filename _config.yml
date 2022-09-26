@@ -7,25 +7,38 @@ first_name: Patrick
 middle_name:
 last_name: Kastner
 email: patrick.kastner@gmail.com
-description: Ph.D. Candidate in Systems Science and Engineering - Cornell University #> # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text:
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🟨 # the emoji used as the favicon
-url: https://kastnerp.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  Ph.D. Candidate in Systems Science and Engineering - Cornell University
+footer_text: >
+keywords: systems engineering, systems, academic-website, portfolio-website  # add your own keywords or leave empty
 
+lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🟨  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+
+url: https://kastnerp.github.io # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+# -----------------------------------------------------------------------------
+# Theme
+# -----------------------------------------------------------------------------
+
+# code highlighter theme
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -33,29 +46,31 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false
+
 # Dimensions
-max_width: 900px
+max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: Kastner_Linkedin.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
+
 github_username: kastnerp # your GitHub user name
 gitlab_username: # pkastner # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: patrickkastner # your LinkedIn user name
 scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
+semanticscholar_id: # your Semantic Scholar ID
 orcid_id: 0000-0003-4940-341X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -68,36 +83,43 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: # 4876516 #your stackoverflow id
 
+
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics:  # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-#blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-#blog_description: a simple whitespace theme for academics
-#permalink: /blog/:year/:title/
+blog_name: # blog_name will be displayed in your blog page; empty name will disable blog
+blog_nav_title:  # your blog must have a title for it to be displayed in the nav bar
+blog_description: a simple whitespace theme for academics
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
-# Comments
-disqus_shortname: #al-folio # put your disqus shortname
 
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
 # External sources.
 # If you have blog posts published on medium.com or other exteranl sources,
 # you can display them in your blog by adding a link to the RSS feed.
-# external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -109,52 +131,50 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  people:
-    output: true
-    permalink: /people/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
-news_limit: 5
+
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 5 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
-# Markdown and syntax highlight
 
+# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme_light: github  # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: "highlight"
+    css_class: 'highlight'
     span:
       line_numbers: false
     block:
       line_numbers: false
       start_line: 1
+
 # Includes & excludes
-include: ["_pages", ".htaccess"]
+include: ['_pages']
 exclude:
   - bin
   - Gemfile
   - Gemfile.lock
   - vendor
 keep_files:
-  -  CNAME
+  - CNAME
   - .nojekyll
   - .git
-# Plug-ins
 
+# Plug-ins
 plugins:
   - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-imagemagick
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
@@ -168,28 +188,16 @@ defaults:
   - scope:
       path: "assets/**/*.*"
     values:
-      sitemap: true
-# Extras
-github: [metadata]
+      sitemap: false
 
 # -----------------------------------------------------------------------------
-# Jekyll optimization
+# Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-# HTML remove comments (<!-- .... -->)
-remove_HTML_comments: true
-
-# HTML beautifier (_plugins/beautify.rb).
-# Source: https://github.com/threedaymonk/htmlbeautifier
-beautify: true # This function has conflict with the code snippets, they can be displayed incorrectly
-
-# HTML minify (_plugins/minify.rb).
-# Source: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
-minify: true
-
-# CSS/SASS minify
-sass:
-  style: compressed
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -202,39 +210,63 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+    year: '/blog/:year/'
+    tag: '/blog/tag/:name/'
+    category: '/blog/category/:name/'
+
+display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
+
   last_name: Kastner
   first_name: [Patrick, P.]
+
   style: apa
   locale: en
+
   source: /_bibliography/
-  bibliography: mypapers.bib
+  bibliography: papers.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
   bibtex_filters: [latex, smallcaps, superscript]
+
   replace_strings: true
   join_strings: true
+
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
+
   query: "@*"
+
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+
+# Maximum number of authors to be shown for each publication (more authors are visible on click)
+max_author_limit: 3  # leave blank to always show all authors
+more_authors_animation_delay: 5  # more authors are revealed on click using animation; smaller delay means faster animation
+
+# -----------------------------------------------------------------------------
+# GScholar
+# -----------------------------------------------------------------------------
+
+jekyll_get_json:
+  - data: gscholar
+    json: "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ&view_op=list_works&sortby=pubdate"
+
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true
+  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -247,15 +279,16 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-quality 75%"
+    webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
 
 jekyll-diagrams:
-  # configuration, see https://github.com/zhustec/jekyll-diagrams.
-  # feel free to comment out this section if not using jekyll diagrams.
+    # configuration, see https://github.com/zhustec/jekyll-diagrams.
+    # feel free to comment out this section if not using jekyll diagrams.
+
 
 # -----------------------------------------------------------------------------
 # Optional Features
@@ -276,9 +309,6 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
-jekyll_get_json:
-  - data: gscholar
-    json: "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ&view_op=list_works&sortby=pubdate"
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -291,7 +321,7 @@ bootstrap:
   version: "4.6.1"
   integrity:
     css: "sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY="
-    js: "sha256-SyTu6CwrfOhaznYZPoolVw2rxoY7lKYKQvqbtqN93HI="
+    js: "sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
 fontawesome:
   version: "5.15.4"
   integrity: "sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4="
@@ -308,9 +338,6 @@ mdb:
   integrity:
     css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-popper:
-  version: "2.11.2"
-  integrity: "sha256-l/1pMF/+J4TThfgARS6KwWrk/egwuVvhRzfLAMQ6Ds4="
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="

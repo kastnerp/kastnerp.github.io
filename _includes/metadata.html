@@ -18,8 +18,10 @@
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
-    {%- if page.title != "blank" and page.url != "/" -%}
-        {{ title }} | {{ page.title }}
+    {% if page.url == '/blog/index.html' %}
+        {{ site.blog_nav_title }} | {{ title }}
+    {%- elsif page.title != "blank" and page.url != "/" -%}
+        {{ page.title }} | {{ title }}
     {%- else -%}
         {{ title }}
     {%- endif -%}
@@ -67,6 +69,10 @@
     {%- endif -%}
     {%- if site.scholar_userid -%}
         {%- capture link -%}https://scholar.google.com/citations?user={{ site.scholar_userid }}{%- endcapture -%}
+        {%- assign sameaslinks = sameaslinks | push: link -%}
+    {%- endif -%}
+    {%- if site.semanticscholar_id -%}
+        {%- capture link -%}https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}{%- endcapture -%}
         {%- assign sameaslinks = sameaslinks | push: link -%}
     {%- endif -%}
     {%- if site.publons_id -%}
