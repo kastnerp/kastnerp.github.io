@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-get-json'
+    gem 'jekyll-remote-include'
     gem 'htmlbeautifier'
 end
 group :other_plugins do
