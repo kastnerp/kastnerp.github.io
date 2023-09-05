@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 description: 
 nav: true
-nav_order: 5
+nav_order: 4
 display_categories: [Cornell University]
 horizontal: false
 ---

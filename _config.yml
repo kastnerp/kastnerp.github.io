@@ -6,9 +6,9 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Patrick
 middle_name:
 last_name: Kastner
-email: patrick.kastner@gmail.com
+email: patrick.kastner@gatech.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ph.D. Candidate in Systems Science and Engineering - Cornell University
+  Assistant Professor — School of Architecture — Georgia Institute of Technology
 footer_text: >
 keywords: systems engineering, systems, academic-website, portfolio-website  # add your own keywords or leave empty
 
