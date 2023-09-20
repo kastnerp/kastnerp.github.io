@@ -66,7 +66,7 @@ og_image: Kastner_Linkedin.jpg # The site-wide (default for all links) Open Grap
 
 
 github_username: kastnerp # your GitHub user name
-gitlab_username: # pkastner # your GitLab user name
+gitlab_username: pkastner # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: patrickkastner # your LinkedIn user name
 scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
@@ -77,7 +77,7 @@ quora_username: # your Quora username
 publons_id: # ABA-6632-2021 # your ID on Publons
 research_gate_profile: Patrick-Kastner # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://es.aap.cornell.edu/ # work page URL
+work_url: https://arch.gatech.edu/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url

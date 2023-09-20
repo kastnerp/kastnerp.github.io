@@ -2,13 +2,12 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: 
+description: Listed below are my teaching engagement as instructor.
 nav: true
 nav_order: 4
-display_categories: [Cornell University]
-horizontal: false
+display_categories: [Georgia Tech, Cornell University]
+horizontal: true
 ---
-
 
 <!-- pages/projects.md -->
 
@@ -61,4 +60,3 @@ horizontal: false
 {%- endif -%}
 
 </div>
-
