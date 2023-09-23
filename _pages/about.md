@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 
 Patrick Kastner is an Assistant Professor with the [School of Architecture](https://arch.gatech.edu/) at Georgia Tech, specializing in environmental performance simulation and the decarbonization of buildings and cities. 
 
-He earned his Ph.D. and M.S. in [Systems Science and Engineering](https://www.systemseng.cornell.edu/se/programs/systems-ms-degree) from Cornell University. During his doctoral research, he developed [Eddy3D](https://www.eddy3d.com/), a microclimate modeling software toolkit for Rhino & Grasshopper, now adopted by leading institutions in both academia and practice.
+He earned his Ph.D. and M.S. in [Systems Science and Engineering](https://www.systemseng.cornell.edu/se/programs/systems-phd) from Cornell University. During his doctoral research, he developed [Eddy3D](https://www.eddy3d.com/), a microclimate modeling software toolkit for Rhino & Grasshopper, now adopted by leading institutions in both academia and practice.
 
 After completing his Ph.D., Kastner continued his work with the [Environmental Systems Lab](https://es.aap.cornell.edu/) at Cornell AAP as a postdoctoral associate, where he provided decision support for the Ithaca Green New Deal to accelerate efforts to decarbonize Ithaca's building stock until 2030. He previously taught at Cornell, UPenn, and Thomas Jefferson University.
 
