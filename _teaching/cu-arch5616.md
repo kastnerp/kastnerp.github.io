@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ARCH 5616
-description: Environmental Systems II---Building Dynamics
+description: Environmental Systems II—Building Dynamics
 img: 
 importance: 2
 category: Cornell University
