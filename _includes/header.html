@@ -94,10 +94,13 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+              
               <!-- CV --> 
+              {%- if site.cv %}
               <li class="nav-item"><a class="nav-link" href="https://cv.patrickkastner.de/">CV</a></li> 
-              {%- if site.enable_darkmode %}
+              {%- endif %}
 
+              {%- if site.enable_darkmode %}
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
