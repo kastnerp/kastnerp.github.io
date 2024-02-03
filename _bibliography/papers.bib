@@ -1,18 +1,17 @@
 @article{kastner2023gan,
-  title={A Gan-based Surrogate Model for Instantaneous Urban Wind Flow Prediction},
-  author={Kastner, Patrick and Dogan, Timur},
-  journal={Building and Environment},
-  pages={110384},
-  year={2023},
-  publisher={Elsevier},
-  abstract={Urban form impacts the airflow patterns in cities and the resulting urban microclimate. This has significant implications for ventilation, overheating, wind chill, and safety concerns such as down drafts from skyscrapers. While Computational Fluid Dynamics (CFD) simulations are the best practice for analyzing urban airflow patterns in design, they are computationally expensive and require a high level of expertise, making them underutilized in the early design process. This paper presents a surrogate model for CFD using a Generative Adversarial Network (GAN) that can process arbitrary building geometries. The model is trained using an automated end-to-end pipeline based on Eddy3D and implemented within the Rhino and Grasshopper environment as an Open Neural Network Exchange (ONNX)-based CFD-GAN predictor. This workflow provides instantaneous simulation feedback within the design software, reduces the risk of user error, and allows for appropriate spatial resolution in early design. The CFD-GAN has demonstrated promising accuracy, with a Structural Similarity Index Measure (SSIM)4 range of 75%–97% on a limited training dataset of 564 unique urban geometries. Although the model currently has limitations regarding accuracy in complex urban wake regions, we show that these are likely not of concern for outdoor thermal comfort analyses. While it cannot replace CFD in later design stages, the CFD-GAN facilitates the incorporation of urban airflow analysis in early design with minimal effort and instantaneous performance feedback.},
-  preview      = {CFDGAN_compressed.gif},
-  bibtex_show  = {true},
-  pdf = {https://www.researchgate.net/publication/371631167_A_GAN-based_surrogate_model_for_instantaneous_urban_wind_flow_prediction},
-  selected     = {true},
-  website      = {https://www.eddy3d.com}
+	title        = {A Gan-based Surrogate Model for Instantaneous Urban Wind Flow Prediction},
+	author       = {Kastner, Patrick and Dogan, Timur},
+	year         = 2023,
+	journal      = {Building and Environment},
+	publisher    = {Elsevier},
+	pages        = 110384,
+	abstract     = {Urban form impacts the airflow patterns in cities and the resulting urban microclimate. This has significant implications for ventilation, overheating, wind chill, and safety concerns such as down drafts from skyscrapers. While Computational Fluid Dynamics (CFD) simulations are the best practice for analyzing urban airflow patterns in design, they are computationally expensive and require a high level of expertise, making them underutilized in the early design process. This paper presents a surrogate model for CFD using a Generative Adversarial Network (GAN) that can process arbitrary building geometries. The model is trained using an automated end-to-end pipeline based on Eddy3D and implemented within the Rhino and Grasshopper environment as an Open Neural Network Exchange (ONNX)-based CFD-GAN predictor. This workflow provides instantaneous simulation feedback within the design software, reduces the risk of user error, and allows for appropriate spatial resolution in early design. The CFD-GAN has demonstrated promising accuracy, with a Structural Similarity Index Measure (SSIM)4 range of 75%–97% on a limited training dataset of 564 unique urban geometries. Although the model currently has limitations regarding accuracy in complex urban wake regions, we show that these are likely not of concern for outdoor thermal comfort analyses. While it cannot replace CFD in later design stages, the CFD-GAN facilitates the incorporation of urban airflow analysis in early design with minimal effort and instantaneous performance feedback.},
+	preview      = {CFDGAN_compressed.gif},
+	bibtex_show  = {true},
+	pdf          = {https://www.researchgate.net/publication/371631167_A_GAN-based_surrogate_model_for_instantaneous_urban_wind_flow_prediction},
+	selected     = {true},
+	website      = {https://www.eddy3d.com}
 }
-
 @article{Kastner2021eddy3d,
 	title        = {Eddy3D: A toolkit for decoupled outdoor thermal comfort simulations in urban areas},
 	author       = {Patrick Kastner and Timur Dogan},
@@ -196,26 +195,38 @@
 	preview      = {CDTM.jpg},
 	website      = {https://www.cdtm.de/research/bookstore/}
 }
-@thesis{kastner2016customizing,
+@article{kastner2022decoupled,
+	title        = {A Decoupled Framework for Fast and High-Resolution Simulations of Annual Outdoor Thermal Comfort},
+	author       = {Kastner, Patrick},
+	year         = 2022,
+	journal      = {Ph.D. Thesis --- Cornell University},
+	abstract     = {Cities will be exposed to a substantial increase in extreme weather events as global warming continues, thereby affecting the microclimate they create for their citizens. The microclimate in cities is shaped by the built environment, proposed and developed by architects and urban designers, and constrained by the zoning rules imposed by urban planners. These stakeholders go through a design process where the most impactful changes can only be made very early on; however, for those specific stakeholders, there are currently no computational tools to estimate the microclimatic impact of their designs at this crucial stage in early design. This thesis introduces a decoupled approach to simulating outdoor thermal comfort, motivated by global sensitivity analyses. For this, computational fluid dynamics and ray tracing processes are streamlined and validated, which are required to simulate the wind velocity and mean radiant temperature in urban areas. Further, a surrogate model driven by a generative adversarial network is introduced, demonstrating near-instantaneous performance feedback in very early design. In three case studies, the contributions are used in practice to (1) engage in building-scale architectural design, (2) run parametric studies and optimization for urban design, and (3) inform city-scale urban policy. In conclusion, the latest machine learning techniques and the opportunities they provide will revolutionize the way we engage with environmental performance simulation in the urban design process.},
+	preview      = {PhD.png},
+	bibtex_show  = {true},
+	pdf          = {https://www.researchgate.net/publication/377874314_A_Decoupled_Framework_for_Fast_and_High-Resolution_Simulations_of_Annual_Outdoor_Thermal_Comfort},
+	selected     = {true},
+	website      = {https://www.eddy3d.com}
+}
+@article{kastner2016customizing,
 	title        = {Customizing OpenFOAM to Assess Wind-induced Natural Ventilation of Classrooms: A Case Study for BRAC University},
 	author       = {Kastner, Patrick},
 	year         = 2016,
+	journal      = {M.S. Thesis --- Technical University of Munich (TUM)},
 	abstract     = {With increased awareness of sustainability, natural ventilation has become a strategy to reduce energy consumption in the built environment while providing comfortable indoor air quality. Themain aim of this thesis was to apply the CFD software OpenFOAM, to investigate the wind-induced natural ventilation potential of classrooms. Relevant ventilation metrics such as air change rates, age of air, and CO2 concentrationswere implemented. External and internal wind flows were simulated in one domain to assess the natural ventilation potential via RANS turbulence modeling. A case setup for a simple cross-ventilation geometry was validated against wind tunnel measurements in accordance with CFD guidelines for the built environment. Based on the validation, a case study was conducted for BRAC University—located in subtropical Asia. The validation study revealed that OpenFOAM was able to accurately predict the flow field and flow rates for the cross-ventilation geometry. Further, OpenFOAM’s passive scalar transport method is able to predict CO2 concentrations with a reasonable error range, while the work-flow can be highly automated. Applying these results to the case study, we suggest a number of geometry modifications to optimize the natural ventilation potential of classrooms for BRAC University. These include specific placement based on the wind direction, and either relocation or shape optimization of adjacent staircases. Additionally, we suggest the use of operable windows to accommodate temporal fluctuations throughout the year. Finally, passive scalar transport methods, which derive metrics like the age of air or CO2 concentrations, provide additional valuable information that should not be overlooked when evaluating design principles. In the future, it may be possible to employ tools based on the implemented ventilation metrics to automate the search for optimized building geometries for maximizing the natural ventilation potential.},
 	bibtex_show  = {true},
 	pdf          = {https://www.researchgate.net/publication/346967737_Customizing_OpenFOAM_to_Assess_Wind-induced_Natural_Ventilation_Potential_of_Classrooms_A_Case_Study_for_BRAC_University},
-	preview      = {MSc.jpg},
-	school       = {M.S. Thesis --- Technical University of Munich (TUM)}
+	preview      = {MSc.jpg}
 }
-@thesis{kastner2012strukturelle,
+@article{kastner2012strukturelle,
 	title        = {Strukturelle und elektrische Charakterisierung von multikristallinem String-Ribbon Silizium f{\"u}r die Photovoltaik},
 	author       = {Kastner, Patrick},
 	year         = 2012,
-	doi          = {10.13140/RG.2.2.26080.81920},
+	journal      = {B.S. Thesis --- University of Erlangen-Nuremberg (FAU)},
+	doi          = {10.13140/rg.2.2.26080.81920},
 	abstract     = {In the last decades the String-Ribbon technique has been shown as an alternative process to produce multicristalline silicon wafers for the photovoltaic industry. Different researches  showed that one can affect and control the wafer quality by varying the process parameters.  In this work, four ribbon wafers with obvious structural differences were analysed in terms of  their electrical and structural specifics. Two of the four wafers were reference samples, which  were produced with common growth parameters. In addition, one wafer with significant  large grains was investigated. The last ribbon apparently showed extensive twin regions in  the boundary areas.  The ribbons were analysed in terms of etch pit density, minority charge carrier  lifetime, grain orientation, solid/liquid interface and local thickness variations.},
 	bibtex_show  = {true},
 	pdf          = {https://www.researchgate.net/publication/357092181_Strukturelle_und_elektrische_Charakterisierung_von_multikristallinem_String-Ribbon_Silizium_fur_die_Photovoltaik},
-	preview      = {BSc.jpg},
-	school       = {B.S. Thesis --- University of Erlangen-Nuremberg (FAU)}
+	preview      = {BSc.jpg}
 }
 @comment{@thesis{kastner2009toxische,
   bibtex_show = {true},
