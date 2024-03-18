@@ -75,6 +75,7 @@ orcid_id: 0000-0003-4940-341X # your ORCID ID
 #medium_username: # your Medium username
 #quora_username: # your Quora username
 #publons_id: # ABA-6632-2021 # your ID on Publons
+scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
 research_gate_profile: Patrick-Kastner # your profile on ResearchGate
 #blogger_url: # your blogger URL
 #work_url: https://arch.gatech.edu/ # work page URL
@@ -313,6 +314,11 @@ enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_cv:                  false  # enables CV section in header
+enable_publication_badges:
+  altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
+  dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
+  google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
+
 
 
 # -----------------------------------------------------------------------------

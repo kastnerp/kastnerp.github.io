@@ -551,6 +551,21 @@ footer.sticky-bottom {
           }
         }
       }
+      .badges {
+        padding-bottom: 0.5rem;
+        padding-left: 0.35rem;
+        span {
+          display: inline-block;
+          color: $black-color;
+          height: 100%;
+          padding-right: 0.5rem;
+          vertical-align: middle;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
