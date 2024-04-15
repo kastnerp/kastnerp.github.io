@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2024 Sustainability Showcase at the BBISS
+title: Anubha Mahajan presenting at the 2024 Sustainability Showcase at the BBISS
 date: 2024-03-08 16:11:00-0400
 inline: false
 ---
