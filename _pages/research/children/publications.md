@@ -5,7 +5,7 @@ title: Publications
 description:
 years_papers: [2024, 2023, 2021, 2020, 2019, 2018]
 years_theses: [2022, 2016, 2012]
-nav: true
+nav: false
 nav_order: 1
 
 ---

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Research
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Theses
+permalink: /theses/
+description: A growing collection of completed theses.
 nav: false
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [MS]
 horizontal: false
 ---
 
