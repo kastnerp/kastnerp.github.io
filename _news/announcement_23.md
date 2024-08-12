@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IBPC 2024 in Toronto!
+title: Sina and Maryam at IBPC 2024 in Toronto!
 date: 2024-07-31 16:11:00-0400
 inline: false
 ---
