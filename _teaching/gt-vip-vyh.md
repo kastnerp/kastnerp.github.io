@@ -14,3 +14,5 @@ category: Georgia Tech
         {% include figure.html path="assets/img/teaching/VIP-Teaser_1.jpg" title="VIP-Teaser-1" class="img-fluid z-depth-1" %}
     </div>
 </div>
+
+{% remote_include https://raw.githubusercontent.com/VIP-SMUR/wiki/main/docs/index.md %}
