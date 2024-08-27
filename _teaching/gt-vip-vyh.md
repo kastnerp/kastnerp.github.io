@@ -16,6 +16,8 @@ category: Georgia Tech
 {{ line }}
 {% endfor %}
 
+---
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
