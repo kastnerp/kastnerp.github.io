@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: Listed below are my current and past teaching engagements.
+description: Listed below are my past and current teaching engagements.
 nav: true
 nav_order: 4
 display_categories: [Georgia Tech, Cornell University]
