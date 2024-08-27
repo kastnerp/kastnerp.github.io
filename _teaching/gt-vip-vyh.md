@@ -8,7 +8,14 @@ category: Georgia Tech
 ---
 
 
-{% remote_include https://raw.githubusercontent.com/VIP-SMUR/wiki/main/docs/index.md %}
+
+{% capture remote_content %}{% remote_include https://raw.githubusercontent.com/VIP-SMUR/wiki/main/docs/index.md %}{% endcapture %}
+{% assign lines = remote_content | split: '
+' %}
+{% for line in lines offset:2 %}
+{{ line }}
+{% endfor %}
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
