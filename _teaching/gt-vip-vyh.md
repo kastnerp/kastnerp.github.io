@@ -1,14 +1,13 @@
 ---
 layout: page
-title: VIP VYH
+title: VIP SMUR
 description: Surrogate Modeling for Urban Regeneration
 img: 
 importance: 6
 category: Georgia Tech
 ---
 
-[More info here.](https://www.vip.gatech.edu/teams/vyh)
-
+[More info here.](https://vip-smur.github.io/wiki/)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
