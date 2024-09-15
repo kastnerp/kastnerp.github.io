@@ -2,10 +2,10 @@
 layout: page
 title: Theses
 permalink: /theses/
-description: A growing collection of completed theses.
+description: A growing collection of completed theses that I advised or co-advised.
 nav: false
 nav_order: 2
-display_categories: [MS]
+display_categories: [BArch, MS]
 horizontal: false
 ---
 

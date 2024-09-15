@@ -4,7 +4,7 @@ services:
     environment:
       - JEKYLL_ENV=docker
     command: bash -c "bundle install; bundler exec jekyll serve --watch --force_polling --port=8080 --host=0.0.0.0"
-    image: amirpourmand/al-folio:latest
+    image: amirpourmand/al-folio:v0.10.1
     volumes:
       - .:/srv/jekyll
     ports:
