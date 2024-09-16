@@ -14,7 +14,7 @@ nav_order: 1
 
 <div class="publications">
 
-My publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, my academic work received {{ site.data.gscholar.total_citations }} citations by the research community. Please find most up-to-date citation metrics via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
+My publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, our academic work received {{ site.data.gscholar.total_citations }} citations by the research community. Most up-to-date citation metrics can be found via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
 
 {%- for y in page.years_papers %}
   <h2 class="year">{{y}}</h2>
