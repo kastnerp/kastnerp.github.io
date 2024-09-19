@@ -58,7 +58,7 @@ How Can the Real-time Masking and Layering of AI-generated Imagery Be Used to Ef
 `Architectural Intelligence, AI, Design Intent, Generative Content, Proceduralization, Intelligent Masking`
 
 ### Source
-[Link](https://www.lukekratsios.com/thesis/kratsios.lukeSP23FINALThesisBook_.pdf) to the thesis.
+[Link](https://www.lukekratsios.com/wp-content/uploads/2024/03/kratsios.lukeSP23FINALThesisBook_.pdf) to the thesis.
 
 ### Highlights
 
