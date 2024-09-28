@@ -1,2 +1,2 @@
-docker build -t al-folio:latest .
+docker build -t al-folio-custom .
 PAUSE
