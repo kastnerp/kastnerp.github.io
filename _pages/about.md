@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Patrick Kastner is a researcher and educator specializing in environmental performance simulation and the decarbonization of buildings and cities. He is an Assistant Professor at the School of Architecture and the Director of the [Sustainable Urban Systems Lab](https://sustain.arch.gatech.edu). 
+Patrick Kastner is a researcher and educator specializing in environmental performance simulation and the decarbonization of buildings and cities. He is an Assistant Professor at the School of Architecture and Director of the [Sustainable Urban Systems Lab](https://sustain.arch.gatech.edu). 
 
 With a background in systems engineering, his goal is to empower urban decision-makers with software tools that place sustainability at the forefront of the profession. He leads a Vertically Integrated Project titled Surrogate Modeling for Urban Regeneration ([SMUR](https://vip-smur.github.io/)), which attracts a diverse group of students ranging from sophomore to graduate level, representing various engineering disciplines and other related fields across Georgia Tech.
 
