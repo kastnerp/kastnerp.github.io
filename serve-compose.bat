@@ -1,2 +1,3 @@
-docker-compose up --watch
+docker compose pull
+docker compose up
 PAUSE
