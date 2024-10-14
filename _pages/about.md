@@ -7,7 +7,7 @@ subtitle: Assistant Professor — <a href="https://arch.gatech.edu/">School of A
 
 profile:
   align: right
-  image: Kastner_Linkedin.jpg
+  image: Kastner.jpg
   image_circular: false # crops the image to make it circular
   address: 358D Hinman Building<br>723 Cherry St NW<br>Atlanta, GA 30332
 
