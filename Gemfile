@@ -22,7 +22,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-remote-include'
-    gem 'libv8-node', '~> 16.10.0.0'
+    gem 'htmlbeautifier'
 end
 group :other_plugins do
     gem 'css_parser'

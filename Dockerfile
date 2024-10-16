@@ -32,6 +32,7 @@ WORKDIR /srv/jekyll
 
 # install jekyll and dependencies
 RUN gem install jekyll bundler
+RUN gem install jekyll-remote-include
 
 RUN bundle install --no-cache
 # && rm -rf /var/lib/gems/3.1.0/cache
