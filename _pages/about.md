@@ -2,8 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Assistant Professor — <a href="https://arch.gatech.edu/">School of Architecture</a> — Georgia Institute of Technology<br> Director of the <a href="https://sustain.arch.gatech.edu/">Sustainable Urban Systems Lab</a>
-
+subtitle: Assistant Professor — <a href="https://arch.gatech.edu/">School of Architecture</a> — Georgia Institute of Technology<br> Adjunct Assistant Professor — <a href="https://isye.gatech.edu/">H. Milton Stewart School of Industrial and Systems Engineering</a> — Georgia Institute of Technology<br> Director of the <a href="https://sustain.arch.gatech.edu/">Sustainable Urban Systems Lab</a>
 
 profile:
   align: right
