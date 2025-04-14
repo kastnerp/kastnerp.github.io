@@ -64,29 +64,6 @@ serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: Kastner.jpg # The site-wide (default for all links) Open Graph preview image
 
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-
-github_username: kastnerp # your GitHub user name
-#gitlab_username: pkastner # your GitLab user name
-#twitter_username: # your Twitter handle
-linkedin_username: patrickkastner # your LinkedIn user name
-scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
-#semanticscholar_id: # your Semantic Scholar ID
-orcid_id: 0000-0003-4940-341X # your ORCID ID
-#medium_username: # your Medium username
-#quora_username: # your Quora username
-#publons_id:  ABA-6632-2021 # your ID on Publons
-research_gate_profile: Patrick-Kastner # your profile on ResearchGate
-#blogger_url: # your blogger URL
-work_url: https://sustain.arch.gatech.edu/ # work page URL
-#keybase_username: # your keybase user name
-#wikidata_id: # your wikidata id
-#dblp_url: # your DBLP profile url
-#stackoverflow_id:  4876516 #your stackoverflow id
-
 
 contact_note: >
   Please reach out via email.
