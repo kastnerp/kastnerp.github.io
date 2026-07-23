@@ -26,3 +26,5 @@ latest_posts:
 ---
 
 {% remote_include https://raw.githubusercontent.com/kastnerp/kastnerp/refs/heads/main/README.md %}
+
+<p><a href="{{ '/bios/' | relative_url }}">(additional bios)</a></p>
