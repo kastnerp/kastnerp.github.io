@@ -1,6 +1,20 @@
+# Local site
 https://arch.gatech.edu/
 https://simtigrate.gatech.edu/
 https://sustain.arch.gatech.edu/
 ^https?://([a-zA-Z\d-]+\.)*linkedin\.com(/.*)?$
 linkedin.com
 reddit.com
+
+# Upstream al-folio files and hosts that reject link checkers
+.github/instructions/bibtex-bibliography.instructions.md
+.github/instructions/liquid-templates.instructions.md
+.github/instructions/markdown-content.instructions.md
+.github/instructions/yaml-configuration.instructions.md
+_pages/404.md
+AGENTS.md
+https://dash.cloudflare.com/
+https://www.linkedin.com/
+https://www.reddit.com/
+README.md
+docs/SEO.md
