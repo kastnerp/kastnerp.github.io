@@ -20,7 +20,11 @@
 {% else %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
     {% if site.newsletter.enabled %}
-      {% include newsletter.liquid %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center.liquid %}
+      {% else %}
+        {% include newsletter.liquid %}
+      {% endif %}
     {% endif %}
 
     <div class="container">
@@ -29,4 +33,5 @@
   </footer>
 {% endif %}
 
+<!-- Site-specific: Umami analytics (not covered by al_analytics providers). -->
 <script defer src="https://cloud.umami.is/script.js" data-website-id="9d081f08-b2a6-4cc9-bfa1-7a4f4d91dbbb"></script>

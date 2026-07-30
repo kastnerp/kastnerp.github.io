@@ -8,11 +8,13 @@ profile:
   align: right
   image: Kastner.jpg
   image_circular: false # crops the image to make it circular
-  address: 358D Hinman Building<br>723 Cherry St NW<br>Atlanta, GA 30332
+  more_info: >
+    <p>358D Hinman Building</p>
+    <p>723 Cherry St NW</p>
+    <p>Atlanta, GA 30332</p>
 
-news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
