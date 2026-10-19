@@ -1,7 +1,31 @@
 ---
 permalink: /robots.txt
 ---
-User-agent: *
-Disallow:
+# robots.txt for https://patrickkastner.me/ (RFC 9309)
+# Content signals: https://contentsignals.org/
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+# AI crawlers and agents: explicitly welcome.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: Bytespider
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+# Everyone else.
+User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}
